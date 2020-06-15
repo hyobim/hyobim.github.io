@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+*{
+    box-sizing: border-box;
+    /*font-family: "맑은 고딕";*/
+    font-family: 'Poor Story', cursive;
+}
+
+header{
+    display:block;
+    padding: 20px 0px;
+    width:100%;
+    /*background-color: greenyellow;*/
+    
+}
+header h5{
+    color: palevioletred;
+    text-align: center;
+}
+header strong{
+    
+    color: deeppink;
+    font-size: large;
+    font-family: "맑은 고딕";
+    text-align: center;
+    margin-top: 50%;
+}
+
+nav{
+    /*background-color: greenyellow;*/
+    padding: 10px;
+}
+ul{
+    list-style: none;
+    float: right;
+}
+li{
+    float: left;
+    font-size: 15px;
+    margin: 5px;
+    margin-top: 0px;
+}
+a{
+    text-decoration: none;
+}
+/*프로필*/
+body{
+  
+        background-image: url('back.jpg');
+        background-size: cover;
+}
+section :nth-child(1){
+    font-family: "맑은 고딕";
+    margin-top: 5px;
+    color: black;
+   
+}
+.left{
+    float: left;
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 5px;
+    height: 300px;
+}
+.container>h2{
+    font-size: 30px;
+    text-shadow: blue;
+    color: skyblue;
+    margin: 0 auto;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: "맑은 고딕";
+     font-style: italic;
+     margin-bottom: 5px;
+}
+.wrap1{
+    padding: 5px;
+}
+.wrap1>h2{
+    font-size: 30px;
+    text-shadow: blue;
+    color: skyblue;
+    margin: 0 auto;
+    text-align: left;
+    font-family: "맑은 고딕";
+     font-style: italic;
+     margin-bottom: 5px;
+}
+.wrap1>log{
+    width: 300px;
+    float: left;
+    height: 200px;
+    margin: 10px auto;
+}
+.wrap1>input[type="submit"]{
+    float: left;
+    height: 50px;
+    background-color:  aquamarine;
+    color: gray;
+    border-radius: 5px;
+    padding:5px;
+    border:none;
+}
+.wrap1>input[type="button"]{
+    float: left;
+    height: 50px;
+    background-color: aquamarine;
+    margin-left: 5px;
+    color: gray;
+    border-radius: 5px;
+    padding:10px;
+    border:none;
+    margin-bottom: 20px;
+    
+}
+.wrap1>clear{
+    clear: both;
+}
+.map{
+    height: 400px;
+}
+.map>h3{
+    clear: both;
+    font-size: 30px;
+    text-shadow: blue;
+    color: skyblue;
+    margin: 0 auto;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: "맑은 고딕";
+     font-style: italic;
+     margin-bottom: 5px;
+}
+
+.right{
+    float: right;
+    width: 60%;
+    
+}
+.wrap2>h2{
+    font-size: 30px;
+    text-shadow: blue;
+    color: royalblue;
+    margin: 0 auto;
+    text-align: left;
+    
+     margin-bottom: 10px;
+}
+.wrap2>h6{
+    font-size: 20px;
+    text-shadow: blue;
+    color:blue;
+    margin: 0 auto;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 5px;    
+    margin-bottom: 5px;
+}
+.riding{
+
+    display: grid;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    grid-template-columns: 350px 350px ;
+    grid-template-rows: 350px 350px;
+
+
+}
+.pic1{ widows: 350px; height:350px;background: url(망원한강복사.jpg) no-repeat; } 
+.text1{ width:350px; height: 350px; background:#000000; opacity:0; } 
+.pic1:hover .text1 { opacity:0.6; text-align:justify; color:#ffffff; font-size:20px; font-weight:700; font-family:"맑은 고딕"; padding:30px; }
+
+.pic2{ widows: 350px; height:350px;background: url(석촌호수복사.jpg) no-repeat; } 
+.text2{ width:350px; height: 350px; background:#000000; opacity:0; } 
+.pic2:hover .text2 { opacity:0.6; text-align:justify; color:#ffffff; font-size:20px; font-weight:700; font-family:"맑은 고딕"; padding:30px; }
+
+.pic3{ widows: 350px; height:350px;background: url(여의도한강복사.jpg) no-repeat; } 
+.text3{ width:350px; height: 350px; background:#000000; opacity:0; } 
+.pic3:hover .text3 { opacity:0.6; text-align:justify; color:#ffffff; font-size:20px; font-weight:700; font-family:"맑은 고딕"; padding:30px; }
+
+.pic4{ widows: 350px; height:350px;background: url(안양천복사.jpg) no-repeat; } 
+.text4{ width:350px; height: 350px; background:#000000; opacity:0; } 
+.pic4:hover .text4 { opacity:0.6; text-align:justify; color:#ffffff; font-size:20px; font-weight:700; font-family:"맑은 고딕"; padding:30px; }
+
+footer{
+    clear: both;
+    float: left;
+    margin-top:100px ;
+    height: 100px;
+    width: 100%;
+    padding:10px 0px;
+    color: gray;
+    font-size: 0.5em;
+}
+footer>ul{
+    
+    float: left;
+}
+footer>li{
+   float: left;
+}

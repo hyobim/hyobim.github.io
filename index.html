@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<script type="text/javascript">
+function submit(){
+  var str= document.loginform.ID.value;
+  document.getElementById("new").innerHTML=str + "님 환영합니다!";
+             
+}
+function login(){
+
+    var l=document.loginform;
+
+    if(l.ID.value==""){
+        alert("아이디를 입력하세요");
+        return false;
+    }
+    if(l.PW.value==""){
+        alert("비밀번호를 입력하세요");
+        return false;
+    }
+
+    else{    
+     submit()
+
+    }
+  }
+</script>
+</head>
+
+<body>
+
+
+    <header>
+    <strong><h1>Hello we are DDAJUJOK</h1></strong>
+    <h5>*따주족 : 따릉이 폭주족 의 줄임말</h5>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="join.html">Join</a> </li>
+            <li><a href="ride.html">Riding</a></li>
+        </ul>
+    </nav>
+<article>
+
+  <div class="left">
+    <section> <!--프로필-->
+         <div class="container" >
+          <h2>profile</h2>
+            <div class="row">
+              <div class="span2">
+                <img src="첨부.jpg"  alt="" class="img-rounded">
+              </div>
+              <div class="span4">
+                <blockquote>
+                  <p>김 효 빈</p>
+                  <small><cite title="Source Title">멋쟁이 사자처럼 8기<i class="icon-map-marker"></i></cite></small>
+                </blockquote>
+                <p>
+                  <i class="icon-envelope"></i> hyobim0911@gmail.com <br>
+                  <i class="icon-globe"></i> @hohbin_ <br>
+                  <i class="icon-gift"></i> september 11, 1998
+                </p>
+              </div>
+         </div>
+        
+    </section>
+    
+    <section> <!--로그인-->
+      <form name="loginform">
+        <div class="wrap1">
+            <h2 id="new">Login</h2>
+          <div class="log">
+            <input type="text" placeholder="id" name="ID" >
+            <div class="clear"></div>
+            <input type="password" placeholder="pw" name="PW" >
+          </div>
+            <input type="button" value="Login" onclick="login()" >
+            <input type="button" value="Join" onclick="location.href='join.html'">
+        </div>
+      </form>  
+    </section>
+    
+    <section>
+      <div class="map">
+        <h3>Location</h3>
+        <table cellpadding="0" cellspacing="0" width="400"> 
+          <tr> <td style="border:1px solid #cecece;">
+          <a href="https://v4.map.naver.com/?mpx=768ac0346043d8cbe69bd87d5e4eedfb899d8220ec535f3aee0c76d6f2340d947717e21a3a6807617add0f5f76b25096c94d93073522c078569da5dc4cc3b4d3&searchCoord=c8bd241e28c32a6e76126b05efa62a0957a01eeeedd58cae956847f122c9018f&query=66ed7JuQ7ZWc6rCV6rO17JuQ&menu=location&tab=1&lng=f9c38f73ef5d375568badb8e632ef90e&mapMode=0&lat=86616184471783f2be4f24203d458c74&dlevel=9&enc=b64" target="_blank">
+            <img src="http://prt.map.naver.com/mashupmap/print?key=p1592052072671_229681700" width="460" height="340" alt="지도 크게 보기" title="지도 크게 보기" border="0" style="vertical-align:top;"/></a>
+          </td> </tr>
+           <tr>
+            <td> 
+            <table cellpadding="0" cellspacing="0" width="100%"> <tr> <td height="30" bgcolor="#f9f9f9" align="left" style="padding-left:9px; border-left:1px solid #cecece; border-bottom:1px solid #cecece;"> 
+            <span style="font-family: tahoma; font-size: 11px; color:#666;">2020.6.13</span>&nbsp;<span style="font-size: 11px; color:#e5e5e5;">|</span>&nbsp;<a style="font-family: dotum,sans-serif; font-size: 11px; color:#666; text-decoration: none; letter-spacing: -1px;" href="https://v4.map.naver.com/?mpx=768ac0346043d8cbe69bd87d5e4eedfb899d8220ec535f3aee0c76d6f2340d947717e21a3a6807617add0f5f76b25096c94d93073522c078569da5dc4cc3b4d3&searchCoord=c8bd241e28c32a6e76126b05efa62a0957a01eeeedd58cae956847f122c9018f&query=66ed7JuQ7ZWc6rCV6rO17JuQ&menu=location&tab=1&lng=f9c38f73ef5d375568badb8e632ef90e&mapMode=0&lat=86616184471783f2be4f24203d458c74&dlevel=9&enc=b64" target="_blank">지도 크게 보기</a> 
+          </td> 
+          <td width="98" bgcolor="#f9f9f9" align="right" style="text-align:right; padding-right:9px; border-right:1px solid #cecece; border-bottom:1px solid #cecece;"> <span style="float:right;"><span style="font-size:9px; font-family:Verdana, sans-serif; color:#444;">&copy;&nbsp;</span>&nbsp;<a style="font-family:tahoma; font-size:9px; font-weight:bold; color:#2db400; text-decoration:none;" href="https://www.navercorp.com" target="_blank">NAVER Corp.</a></span> </td> </tr> </table> </td> </tr> </table>
+      </div>
+    </section>
+  </div>
+
+  <div class="right">  
+    <section> <!--따릉이코스소개-->
+      <div class="wrap2">
+          <h2>따릉이 코스 소개</h2>
+          <h6>click!</h6>
+          <div class="riding">
+            <div class="pic1"> <div class="text1"> 야경 맛집 <br><br>망원 한강 공원 </div> </div>
+            <div class="pic2"> <div class="text2"> 롯데월드뷰<br><br>석촌 호수 </div> </div>
+            <div class="pic3"> <div class="text3"> 따릉이 초보자에게 최고!<br><br>여의도 한강 공원 </div> </div>
+            <div class="pic4"> <div class="text4"> 운동하기 좋은<br><br>안양천 </div> </div>
+          </div>
+      </div>
+    </section>
+  </div>  
+
+</article>
+
+<footer>
+  <ul>
+    <li>git_hub:</li>
+    <br>
+    <li>More About 따릉이 : www.bikeseoul.com</li>
+  </ul>
+</footer>
+</body>
+</html>
