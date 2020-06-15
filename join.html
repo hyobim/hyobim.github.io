@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylejoin.css">
+ <script>
+function signup(){
+    var f=document.signform;
+    if(f.userid.value==""){
+        alert("아이디를 입력하세요");
+        return false;
+    }
+    if(f.userpw.value==""){
+        alert("비밀번호를 입력하세요");
+        return false;
+    }
+    if(f.username.value==""){
+        alert("이름을 입력하세요");
+        return false;
+    }
+
+    else{
+        alert("회원가입이 완료 되었습니다.");
+        window.open("index.html");
+        window.close("join.html");
+    }
+}
+
+
+ </script>
+</head>
+<body>
+    <header>
+        <h1>Sign up</h1>
+    </header>
+    <article>
+        <section>
+          <form name="signform">
+            <div class="join">
+                <label>ID</label><input type="text" name="userid">
+                
+                <label>PW</label><input type="password" name="userpw">
+                
+                <label>Name</label><input type="text"name="username">
+                
+                <input type="submit" value="제출" onclick="signup()">
+            </div>
+          </form>   
+        </section>
+    </article>
+</body>
+</html>
